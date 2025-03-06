@@ -58,10 +58,6 @@ Frontend Developer
 - **Frontend:** HTML, CSS, JavaScript
 - **Backend:** Python, Django, Django Rest Framework
 
-#### Screenshots
-![App Screenshot 1](https://i.ibb.co.com/7dDdVmsF/Screenshot-2025-02-13-13-49-11.png)
-![App Screenshot 2](https://i.ibb.co.com/HTsfWmFh/Screenshot-2025-02-13-13-49-35.png)
-
 #### Used By
 - NIter Computer Club (NCC)
 
