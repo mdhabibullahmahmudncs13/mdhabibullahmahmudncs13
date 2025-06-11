@@ -104,3 +104,8 @@ I am currently open to new opportunities and collaborations in web development, 
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![AI](https://img.shields.io/badge/-AI-0078D7?style=flat&logo=adobeillustrator&logoColor=white)
 ![Cybersecurity](https://img.shields.io/badge/-Cybersecurity-276DC3?style=flat&logo=shieldsdotio&logoColor=white)
+ <img src="https://img.shields.io/badge/Next.js-13.5.1-black?style=for-the-badge&logo=next.js" alt="Next.js" />
+  <img src="https://img.shields.io/badge/TypeScript-5.2.2-blue?style=for-the-badge&logo=typescript" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-3.3.3-38B2AC?style=for-the-badge&logo=tailwind-css" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Appwrite-1.4-F02E65?style=for-the-badge&logo=appwrite" alt="Appwrite" />
+  <img src="https://img.shields.io/badge/OpenAI-GPT--4-412991?style=for-the-badge&logo=openai" alt="OpenAI" />
