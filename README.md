@@ -70,7 +70,7 @@ I believe in **clean code**, **scalable architecture**, and **continuous learnin
 <td width="50%" valign="top">
 
 ### 🎓 Education Exam System
-> Dig The Data 3.0 — NIT Computer Club
+> Dig The Data 3.0 — NITER Computer Club
 
 ![Status](https://img.shields.io/badge/Status-Live%20%26%20In%20Use-4ade80?style=flat-square)
 
