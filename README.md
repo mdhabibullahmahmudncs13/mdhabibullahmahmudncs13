@@ -1,4 +1,4 @@
-# MD HABIBULLAH MAHMUD - Tech Professional
+# MD HABIBULLAH MAHMUD - Personal Portfolio
 
 [![Portfolio Website](https://img.shields.io/badge/Visit-Portfolio-blue)](https://www.mdhabibullahmahmud.me/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5)](https://www.linkedin.com/in/md-habibullah-mahmud-3820382a9/)
@@ -6,106 +6,251 @@
 
 ## 👨‍💻 About Me
 
-I am MD HABIBULLAH MAHMUD, a versatile tech expert from Dhaka, Bangladesh, currently pursuing a Bachelor of Science in Computer Science and Engineering at the National Institute of Textile Engineering and Research. My focus areas include web development, Python, AI, cybersecurity (ethical hacking), and robotics. I am passionate about building innovative solutions, optimizing digital experiences, and enhancing security in the ever-evolving tech landscape.
+I am MD HABIBULLAH MAHMUD, a versatile tech expert from Dhaka, Bangladesh, currently pursuing a Bachelor of Science in Computer Science and Engineering at the National Institute of Textile Engineering and Research (NIT). My focus areas include web development, Python, AI, cybersecurity (ethical hacking), and robotics. I am passionate about building innovative solutions, optimizing digital experiences, and enhancing security in the ever-evolving tech landscape.
 
-## 🚀 Skills
+---
 
-### Technical Skills
-- Python
-- Web Development (HTML, CSS, JavaScript)
-- Django & Django Rest Framework
-- Robotics
-- Cybersecurity & Ethical Hacking
-- AI & Machine Learning
+## 🚀 This Project
 
-### Digital Marketing
-- SEO (Search Engine Optimization)
-- Digital Marketing Media
-- Digital Marketing Communications
+A modern, dynamic portfolio website built with SvelteKit frontend and Django REST API backend. Showcasing my skills, experience, and projects with a secure admin panel for content management.
 
-## 💼 Experience
+## 📁 Project Structure
 
-### Digital Marketing Intern | Aurora Innovative
-*August 2023 - January 2024 (6 months)*
-- Gained hands-on experience in digital marketing strategies and implementation
-- Worked on SEO optimization and digital marketing communications
-- Contributed to digital media marketing campaigns
+```
+portfolio-svelte-django/
+├── backend/                 # Django REST API
+│   ├── api/                # API app with models, views, serializers
+│   ├── portfolio_backend/  # Django project settings
+│   ├── manage.py
+│   └── requirements.txt
+│
+├── frontend/               # SvelteKit app
+│   ├── src/
+│   │   ├── lib/           # Utilities, types, API client
+│   │   └── routes/        # SvelteKit routes
+│   ├── package.json
+│   └── svelte.config.js
+│
+└── README.md
+```
 
-## 📚 Education
+## 🚀 Features
 
-**Bachelor of Science in Computer Science and Engineering**  
-National Institute of Textile Engineering and Research  
-*Started October 2023 - Present*
-
-## 🌟 Featured Project
-
-### Education Exam System - Dig The Data 3.0
-
-A comprehensive Event and Exam Management System built with Django that enables teams to participate in quizzes, answer questions, and track scores in competitive environments.
-
-#### My Role
-Frontend Developer
-
-#### Key Features
-- User authentication and team management
-- Quiz management with common and unique questions
-- Answer submission and automatic scoring
-- Hint request system
-- Score tracking and leaderboards
-- Admin controls for site settings
-
-#### Tech Stack
-- **Frontend:** HTML, CSS, JavaScript
-- **Backend:** Python, Django, Django Rest Framework
-
-#### Used By
-- NIter Computer Club (NCC)
-
-[View Repository](https://github.com/mdhabibullahmahmudncs13/education-exam-system)
-
-## 🧩 Additional Projects
-
-### Personal Portfolio Website
-- Designed and developed my personal portfolio website
-- Implemented responsive design for optimal viewing on all devices
-- [View Website](https://www.mdhabibullahmahmud.me/)
-
-<!-- Add more projects as needed -->
-
-## 🔧 Current Focus
-
-I am actively developing my skills in:
-- Advanced Python programming
-- Django web framework
-- Artificial Intelligence applications
-- Ethical hacking techniques
-- Web development technologies
-- Robotics systems
-
-## 📫 Contact
-
-Feel free to reach out for collaborations or inquiries:
-
-- **Email**: mdhabibullahmahmudncs13@gmail.com
-- **LinkedIn**: [MD Habibullah Mahmud](https://www.linkedin.com/in/md-habibullah-mahmud-3820382a9/)
-- **GitHub**: [mdhabibullahmahmudncs13](https://github.com/mdhabibullahmahmudncs13)
-- **Website**: [mdhabibullahmahmud.me](https://www.mdhabibullahmahmud.me/)
-
-## 🤝 Open to Opportunities
-
-I am currently open to new opportunities and collaborations in web development, Django projects, cybersecurity, AI, and robotics. Let's connect and build something amazing together!
+- **Public Portfolio Pages**: Hero, Skills, Projects, Experience, Certifications, Contact, Blog
+- **Admin Panel**: Secure content management at `/xenon` (login at `/whoami`)
+- **Contact Form**: Message submissions stored in database
+- **File Uploads**: Images, videos, PDFs support
+- **RESTful API**: Django REST Framework with JWT authentication
+- **Modern UI**: TailwindCSS, dark theme, responsive design
 
 ## 🛠️ Tech Stack
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
-![Django](https://img.shields.io/badge/-Django-092E20?style=flat&logo=django&logoColor=white)
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![AI](https://img.shields.io/badge/-AI-0078D7?style=flat&logo=adobeillustrator&logoColor=white)
-![Cybersecurity](https://img.shields.io/badge/-Cybersecurity-276DC3?style=flat&logo=shieldsdotio&logoColor=white)
- <img src="https://img.shields.io/badge/Next.js-13.5.1-black?style=for-the-badge&logo=next.js" alt="Next.js" />
-  <img src="https://img.shields.io/badge/TypeScript-5.2.2-blue?style=for-the-badge&logo=typescript" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-3.3.3-38B2AC?style=for-the-badge&logo=tailwind-css" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/Appwrite-1.4-F02E65?style=for-the-badge&logo=appwrite" alt="Appwrite" />
-  <img src="https://img.shields.io/badge/OpenAI-GPT--4-412991?style=for-the-badge&logo=openai" alt="OpenAI" />
+**Frontend:**
+- SvelteKit 2.0
+- TypeScript
+- TailwindCSS
+- Vite
+
+**Backend:**
+- Django 4.2+
+- Django REST Framework
+- Simple JWT
+- PostgreSQL (production) / SQLite (development)
+
+## 📦 Installation
+
+### Backend Setup
+
+```bash
+cd backend
+
+# Install dependencies (create virtual environment first if needed)
+pip install -r requirements.txt
+
+# Copy environment file
+cp .env.example .env
+
+# Run migrations
+python manage.py makemigrations
+python manage.py migrate
+
+# Create superuser for admin access
+python manage.py createsuperuser
+
+# Run development server
+python manage.py runserver
+```
+
+The API will be available at `http://localhost:8000/api/`
+
+### Frontend Setup
+
+```bash
+cd frontend
+
+# Install dependencies
+npm install
+
+# Copy environment file
+cp .env.example .env
+
+# Run development server
+npm run dev
+```
+
+The frontend will be available at `http://localhost:5173`
+
+## 🔐 Authentication
+
+1. Create a superuser in Django: `python manage.py createsuperuser`
+2. Login at `/whoami` using your credentials
+3. Access admin panel at `/xenon`
+
+## 📡 API Endpoints
+
+### Public Endpoints
+- `GET /api/hero/` - Get hero section data
+- `GET /api/skills/` - List all skills
+- `GET /api/projects/` - List all projects
+- `GET /api/experience/` - List experience
+- `GET /api/certifications/` - List certifications
+- `GET /api/contact/` - Get contact information
+- `POST /api/messages/` - Submit contact form
+- `GET /api/blog/` - List published blog posts
+
+### Admin Endpoints (Require JWT Token)
+- All POST, PUT, PATCH, DELETE operations
+- `GET /api/messages/` - View all messages
+- POST `/api/token/` - Obtain JWT token
+- POST `/api/token/refresh/` - Refresh JWT token
+
+## 💼 Professional Background
+
+### Technical Skills
+- **Languages**: Python, JavaScript, TypeScript
+- **Web Development**: HTML, CSS, JavaScript, Responsive Design
+- **Frontend**: SvelteKit, React basics, TailwindCSS
+- **Backend**: Django, Django REST Framework
+- **Databases**: PostgreSQL, SQLite
+- **Cybersecurity & Ethical Hacking**: Network security, penetration testing basics
+- **AI & Machine Learning**: Basic ML concepts and applications
+- **Robotics**: Embedded systems, Arduino
+
+### Specializations
+- **Digital Marketing**: SEO, Social Media Marketing, Digital Communications
+- **Full-Stack Web Development**: from frontend to backend architecture
+
+### Experience
+
+**Digital Marketing Intern** | Aurora Innovative  
+*August 2023 - January 2024 (6 months)*
+- Implemented digital marketing strategies and SEO optimization
+- Worked on social media and digital marketing communications
+- Contributed to content marketing campaigns
+
+### Education
+
+**Bachelor of Science in Computer Science and Engineering**  
+National Institute of Textile Engineering and Research (NIT)  
+*October 2023 - Present*
+
+### Featured Projects
+
+**Education Exam System - Dig The Data 3.0**
+- Comprehensive Event and Exam Management System for competitive quizzes
+- Role: Frontend Developer
+- Features: User authentication, team management, quiz scoring, leaderboards
+- Tech: Django, Django REST Framework, HTML, CSS, JavaScript
+- Used by: NIT Computer Club (NCC)
+- [View Repository](https://github.com/mdhabibullahmahmudncs13/education-exam-system)
+
+**Personal Portfolio Website** (This Project)
+- Modern portfolio with SvelteKit frontend and Django REST backend
+- Features: Admin panel, SEO-optimized pages, contact forms, file uploads
+- Tech: SvelteKit, TypeScript, TailwindCSS, Django, PostgreSQL
+
+### Current Focus
+
+Actively developing expertise in:
+- Advanced Python programming
+- Full-stack web development with modern frameworks
+- Artificial Intelligence and Machine Learning applications
+- Cybersecurity and ethical hacking
+- Deployment and DevOps practices
+
+### Open to Opportunities
+
+I'm actively seeking opportunities in:
+- Web development and full-stack projects
+- Django/Python backend development
+- AI and machine learning applications
+- Cybersecurity initiatives
+- Robotics and embedded systems
+- Digital transformation projects
+
+## 🌐 Environment Variables
+
+### Backend (.env)
+```
+SECRET_KEY=your-secret-key
+DEBUG=True
+ALLOWED_HOSTS=localhost,127.0.0.1
+CORS_ALLOWED_ORIGINS=http://localhost:5173,http://127.0.0.1:5173
+```
+
+### Frontend (.env)
+```
+PUBLIC_API_URL=http://localhost:8000/api
+```
+
+## 🚢 Deployment
+
+### Backend (Railway/Render/Heroku)
+1. Set environment variables
+2. Use PostgreSQL database
+3. Run `python manage.py collectstatic`
+4. Set `DEBUG=False` in production
+
+### Frontend (Vercel)
+1. Connect GitHub repository
+2. Set `PUBLIC_API_URL` to your backend URL
+3. Deploy
+
+## 📝 Models
+
+- **Hero**: Portfolio owner information
+- **Skill**: Technical skills with proficiency levels
+- **Project**: Portfolio projects with images/videos
+- **Experience**: Work experience timeline
+- **Certification**: Certifications and courses
+- **Contact**: Contact information
+- **Message**: Contact form submissions
+- **BlogPost**: Blog articles with markdown support
+
+## 🔧 Development
+
+### Run Backend Tests
+```bash
+cd backend
+python manage.py test
+```
+
+### Build Frontend
+```bash
+cd frontend
+npm run build
+```
+
+## 📄 License
+
+MIT License
+
+## 👤 Author
+
+**MD HABIBULLAH MAHMUD**  
+Tech Professional | Web Developer | Computer Science Student  
+
+- **Email**: mdhabibullahmahmudncs13@gmail.com
+- **Portfolio**: [mdhabibullahmahmud.me](https://www.mdhabibullahmahmud.me/)
+- **LinkedIn**: [MD Habibullah Mahmud](https://www.linkedin.com/in/md-habibullah-mahmud-3820382a9/)
+- **GitHub**: [mdhabibullahmahmudncs13](https://github.com/mdhabibullahmahmudncs13)
