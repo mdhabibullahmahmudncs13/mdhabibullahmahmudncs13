@@ -5,7 +5,7 @@
 <div align="center">
 
 [![Portfolio](https://img.shields.io/badge/🌐%20Portfolio-mdhabibullahmahmud.me-blue?style=for-the-badge&logoColor=white)](https://www.mdhabibullahmahmud.work/)
-[![LinkedIn](https://img.shields.io/badge/👔%20LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/md-habibullah-mahmud-2423841a5/)
+[![LinkedIn](https://img.shields.io/badge/👔%20LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/md-habibullah-mahmud-2423841a5/)
 [![Email](https://img.shields.io/badge/📧%20Email-Get%20in%20Touch-red?style=for-the-badge)](mailto:mdhabibullahmahmudncs13@gmail.com)
 
 </div>
@@ -14,7 +14,7 @@
 
 ## 👨‍💻 About Me
 
-I'm a **versatile tech expert** currently pursuing a **Bachelor of Science in Computer Science & Engineering** at the National Institute of Textile Engineering and Research (NIT), Dhaka, Bangladesh.
+I'm a **versatile tech expert** currently pursuing a **Bachelor of Science in Computer Science & Engineering** at the National Institute of Textile Engineering and Research (NITER), Dhaka, Bangladesh.
 
 **I'm passionate about:**
 - 💻 Building innovative web applications
@@ -81,7 +81,7 @@ Backend: Deployed on Railway
 - 💬 Contact form with message storage
 - 📤 File upload system (images, videos, PDFs)
 
-[🔗 View Repository](https://github.com/mdhabibullahmahmudncs13/portfolio-svelte-django) | [🌐 Live Site](https://www.mdhabibullahmahmud.me/)
+[🔗 View Repository](https://github.com/mdhabibullahmahmudncs13/portfolio-svelte-django) | [🌐 Live Site](https://www.mdhabibullahmahmud.work/)
 
 ---
 
@@ -101,7 +101,7 @@ Backend: Deployed on Railway
 ## 🎓 Education
 
 **🏫 Bachelor of Science in Computer Science & Engineering**  
-National Institute of Textile Engineering and Research (NIT)  
+National Institute of Textile Engineering and Research (NITER)  
 📅 October 2023 - Present
 
 **Relevant Coursework:**
