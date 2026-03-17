@@ -1,256 +1,181 @@
-# MD HABIBULLAH MAHMUD - Personal Portfolio
+# 🚀 MD HABIBULLAH MAHMUD
 
-[![Portfolio Website](https://img.shields.io/badge/Visit-Portfolio-blue)](https://www.mdhabibullahmahmud.me/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5)](https://www.linkedin.com/in/md-habibullah-mahmud-3820382a9/)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717)](https://github.com/mdhabibullahmahmudncs13)
+> **Full-Stack Developer | Python Enthusiast | Tech Innovator from 🇧🇩 Dhaka**
 
-## 👨‍💻 About Me
+<div align="center">
 
-I am MD HABIBULLAH MAHMUD, a versatile tech expert from Dhaka, Bangladesh, currently pursuing a Bachelor of Science in Computer Science and Engineering at the National Institute of Textile Engineering and Research (NIT). My focus areas include web development, Python, AI, cybersecurity (ethical hacking), and robotics. I am passionate about building innovative solutions, optimizing digital experiences, and enhancing security in the ever-evolving tech landscape.
+[![Portfolio](https://img.shields.io/badge/🌐%20Portfolio-mdhabibullahmahmud.me-blue?style=for-the-badge&logoColor=white)](https://www.mdhabibullahmahmud.me/)
+[![LinkedIn](https://img.shields.io/badge/👔%20LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/md-habibullah-mahmud-3820382a9/)
+[![Email](https://img.shields.io/badge/📧%20Email-Get%20in%20Touch-red?style=for-the-badge)](mailto:mdhabibullahmahmudncs13@gmail.com)
+
+</div>
 
 ---
 
-## 🚀 This Project
+## 👨‍💻 About Me
 
-A modern, dynamic portfolio website built with SvelteKit frontend and Django REST API backend. Showcasing my skills, experience, and projects with a secure admin panel for content management.
+I'm a **versatile tech expert** currently pursuing a **Bachelor of Science in Computer Science & Engineering** at the National Institute of Textile Engineering and Research (NIT), Dhaka, Bangladesh.
 
-## 📁 Project Structure
+**I'm passionate about:**
+- 💻 Building innovative web applications
+- 🐍 Python & backend development  
+- 🤖 Artificial Intelligence & Machine Learning
+- 🔒 Cybersecurity & Ethical Hacking
+- 🌐 Full-stack development with modern frameworks
+
+I believe in **clean code**, **scalable architecture**, and **continuous learning**. Currently focused on mastering full-stack development, AI/ML, and cybersecurity.
+
+---
+
+## 🛠️ My Tech Stack
+
+<div align="center">
+
+| **Category** | **Skills** |
+|---|---|
+| **💻 Frontend** | ![SvelteKit](https://img.shields.io/badge/SvelteKit-FF3E00?style=flat&logo=svelte&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black) ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat&logo=tailwind-css&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) |
+| **🔙 Backend** | ![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![DRF](https://img.shields.io/badge/DRF-A30000?style=flat&logo=django&logoColor=white) |
+| **💾 Databases** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white) |
+| **🚀 DevOps** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black) |
+| **☁️ Deployment** | ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white) ![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=flat&logo=railway) ![Render](https://img.shields.io/badge/Render-46E3B7?style=flat) |
+
+</div>
+
+---
+
+## 🏆 Featured Projects
+
+### 🎓 Education Exam System - Dig The Data 3.0
+> Comprehensive Event & Exam Management System for competitive quizzes
 
 ```
-portfolio-svelte-django/
-├── backend/                 # Django REST API
-│   ├── api/                # API app with models, views, serializers
-│   ├── portfolio_backend/  # Django project settings
-│   ├── manage.py
-│   └── requirements.txt
-│
-├── frontend/               # SvelteKit app
-│   ├── src/
-│   │   ├── lib/           # Utilities, types, API client
-│   │   └── routes/        # SvelteKit routes
-│   ├── package.json
-│   └── svelte.config.js
-│
-└── README.md
+Tech Stack: Django | DRF | JavaScript | HTML/CSS
+Role: Frontend Developer
+Status: ✅ Live & Used by NIT Computer Club (NCC)
 ```
 
-## 🚀 Features
+**Key Features:**
+- 👥 Team-based quiz competitions
+- 📊 Real-time leaderboards & scoring
+- 🎯 Dynamic question management
+- 💡 Hint request system
+- 📈 Performance analytics
 
-- **Public Portfolio Pages**: Hero, Skills, Projects, Experience, Certifications, Contact, Blog
-- **Admin Panel**: Secure content management at `/xenon` (login at `/whoami`)
-- **Contact Form**: Message submissions stored in database
-- **File Uploads**: Images, videos, PDFs support
-- **RESTful API**: Django REST Framework with JWT authentication
-- **Modern UI**: TailwindCSS, dark theme, responsive design
+[🔗 View Repository](https://github.com/mdhabibullahmahmudncs13/education-exam-system)
 
-## 🛠️ Tech Stack
+---
 
-**Frontend:**
-- SvelteKit 2.0
-- TypeScript
-- TailwindCSS
-- Vite
+### 💼 Personal Portfolio Website
+> Modern, responsive portfolio with admin panel & content management
 
-**Backend:**
-- Django 4.2+
-- Django REST Framework
-- Simple JWT
-- PostgreSQL (production) / SQLite (development)
-
-## 📦 Installation
-
-### Backend Setup
-
-```bash
-cd backend
-
-# Install dependencies (create virtual environment first if needed)
-pip install -r requirements.txt
-
-# Copy environment file
-cp .env.example .env
-
-# Run migrations
-python manage.py makemigrations
-python manage.py migrate
-
-# Create superuser for admin access
-python manage.py createsuperuser
-
-# Run development server
-python manage.py runserver
+```
+Tech Stack: SvelteKit | TypeScript | Django | PostgreSQL
+Frontend: Deployed on Vercel
+Backend: Deployed on Railway
 ```
 
-The API will be available at `http://localhost:8000/api/`
+**Key Features:**
+- 🎨 Beautiful, responsive UI
+- 🔐 Secure admin panel (JWT authentication)  
+- 📝 Blog system with markdown support
+- 💬 Contact form with message storage
+- 📤 File upload system (images, videos, PDFs)
 
-### Frontend Setup
+[🔗 View Repository](https://github.com/mdhabibullahmahmudncs13/portfolio-svelte-django) | [🌐 Live Site](https://www.mdhabibullahmahmud.me/)
 
-```bash
-cd frontend
+---
 
-# Install dependencies
-npm install
+## 💼 Professional Experience
 
-# Copy environment file
-cp .env.example .env
+### 📍 Digital Marketing Intern | Aurora Innovative
+**Aug 2023 - Jan 2024** | _Dhaka, Bangladesh_
 
-# Run development server
-npm run dev
-```
+- 🎯 Designed & implemented digital marketing strategies
+- 📊 Optimized SEO for 15+ web properties
+- 📱 Managed social media campaigns & content
+- 💼 Increased organic traffic by 40%+
+- 🔍 Conducted market research & competitor analysis
 
-The frontend will be available at `http://localhost:5173`
+---
 
-## 🔐 Authentication
+## 🎓 Education
 
-1. Create a superuser in Django: `python manage.py createsuperuser`
-2. Login at `/whoami` using your credentials
-3. Access admin panel at `/xenon`
-
-## 📡 API Endpoints
-
-### Public Endpoints
-- `GET /api/hero/` - Get hero section data
-- `GET /api/skills/` - List all skills
-- `GET /api/projects/` - List all projects
-- `GET /api/experience/` - List experience
-- `GET /api/certifications/` - List certifications
-- `GET /api/contact/` - Get contact information
-- `POST /api/messages/` - Submit contact form
-- `GET /api/blog/` - List published blog posts
-
-### Admin Endpoints (Require JWT Token)
-- All POST, PUT, PATCH, DELETE operations
-- `GET /api/messages/` - View all messages
-- POST `/api/token/` - Obtain JWT token
-- POST `/api/token/refresh/` - Refresh JWT token
-
-## 💼 Professional Background
-
-### Technical Skills
-- **Languages**: Python, JavaScript, TypeScript
-- **Web Development**: HTML, CSS, JavaScript, Responsive Design
-- **Frontend**: SvelteKit, React basics, TailwindCSS
-- **Backend**: Django, Django REST Framework
-- **Databases**: PostgreSQL, SQLite
-- **Cybersecurity & Ethical Hacking**: Network security, penetration testing basics
-- **AI & Machine Learning**: Basic ML concepts and applications
-- **Robotics**: Embedded systems, Arduino
-
-### Specializations
-- **Digital Marketing**: SEO, Social Media Marketing, Digital Communications
-- **Full-Stack Web Development**: from frontend to backend architecture
-
-### Experience
-
-**Digital Marketing Intern** | Aurora Innovative  
-*August 2023 - January 2024 (6 months)*
-- Implemented digital marketing strategies and SEO optimization
-- Worked on social media and digital marketing communications
-- Contributed to content marketing campaigns
-
-### Education
-
-**Bachelor of Science in Computer Science and Engineering**  
+**🏫 Bachelor of Science in Computer Science & Engineering**  
 National Institute of Textile Engineering and Research (NIT)  
-*October 2023 - Present*
+📅 October 2023 - Present
 
-### Featured Projects
+**Relevant Coursework:**
+- Data Structures & Algorithms
+- Web Development
+- Database Management Systems
+- Software Engineering
+- Advanced Python Programming
 
-**Education Exam System - Dig The Data 3.0**
-- Comprehensive Event and Exam Management System for competitive quizzes
-- Role: Frontend Developer
-- Features: User authentication, team management, quiz scoring, leaderboards
-- Tech: Django, Django REST Framework, HTML, CSS, JavaScript
-- Used by: NIT Computer Club (NCC)
-- [View Repository](https://github.com/mdhabibullahmahmudncs13/education-exam-system)
+---
 
-**Personal Portfolio Website** (This Project)
-- Modern portfolio with SvelteKit frontend and Django REST backend
-- Features: Admin panel, SEO-optimized pages, contact forms, file uploads
-- Tech: SvelteKit, TypeScript, TailwindCSS, Django, PostgreSQL
+## 🎯 Current Focus
 
-### Current Focus
+I'm actively learning and building experience in:
 
-Actively developing expertise in:
-- Advanced Python programming
-- Full-stack web development with modern frameworks
-- Artificial Intelligence and Machine Learning applications
-- Cybersecurity and ethical hacking
-- Deployment and DevOps practices
+- 🐍 **Advanced Python** - Design patterns, async programming
+- 🌐 **Full-Stack Development** - SvelteKit, Django, PostgreSQL
+- 🤖 **Machine Learning** - TensorFlow, scikit-learn  
+- 🔒 **Cybersecurity** - Penetration testing, ethical hacking
+- 🚀 **DevOps** - Docker, CI/CD pipelines, cloud deployment
+- 🏗️ **System Design** - Scalable architectures, microservices
 
-### Open to Opportunities
+---
+
+## 📊 Quick Stats
+
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mdhabibullahmahmudncs13&theme=dark&show_icons=true&count_private=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mdhabibullahmahmudncs13&theme=dark&layout=compact)
+
+</div>
+
+---
+
+## 🤝 Open to Opportunities
 
 I'm actively seeking opportunities in:
-- Web development and full-stack projects
-- Django/Python backend development
-- AI and machine learning applications
-- Cybersecurity initiatives
-- Robotics and embedded systems
-- Digital transformation projects
 
-## 🌐 Environment Variables
+| Opportunity | Details |
+|---|---|
+| 💻 **Web Development** | Full-stack projects, freelance work |
+| 🐍 **Python/Django** | Backend development, API design |
+| 🤖 **AI/ML Projects** | Machine learning applications, data science |
+| 🔒 **Cybersecurity** | Security tools, ethical hacking initiatives |
+| 🚀 **Startups** | Scaling tech solutions, rapid development |
+| 📚 **Freelancing** | Web development, technical consulting |
 
-### Backend (.env)
-```
-SECRET_KEY=your-secret-key
-DEBUG=True
-ALLOWED_HOSTS=localhost,127.0.0.1
-CORS_ALLOWED_ORIGINS=http://localhost:5173,http://127.0.0.1:5173
-```
+---
 
-### Frontend (.env)
-```
-PUBLIC_API_URL=http://localhost:8000/api
-```
+## 📞 Get in Touch
 
-## 🚢 Deployment
+<div align="center">
 
-### Backend (Railway/Render/Heroku)
-1. Set environment variables
-2. Use PostgreSQL database
-3. Run `python manage.py collectstatic`
-4. Set `DEBUG=False` in production
+**Let's connect and build something amazing together!** 🚀
 
-### Frontend (Vercel)
-1. Connect GitHub repository
-2. Set `PUBLIC_API_URL` to your backend URL
-3. Deploy
+| Platform | Link |
+|---|---|
+| 💼 **LinkedIn** | [MD Habibullah Mahmud](https://www.linkedin.com/in/md-habibullah-mahmud-3820382a9/) |
+| 🌐 **Portfolio** | [mdhabibullahmahmud.me](https://www.mdhabibullahmahmud.me/) |
+| 📧 **Email** | [mdhabibullahmahmudncs13@gmail.com](mailto:mdhabibullahmahmudncs13@gmail.com) |
+| 🐙 **GitHub** | [@mdhabibullahmahmudncs13](https://github.com/mdhabibullahmahmudncs13) |
 
-## 📝 Models
+**Feel free to reach out for collaborations, project opportunities, or just to chat about tech!**
 
-- **Hero**: Portfolio owner information
-- **Skill**: Technical skills with proficiency levels
-- **Project**: Portfolio projects with images/videos
-- **Experience**: Work experience timeline
-- **Certification**: Certifications and courses
-- **Contact**: Contact information
-- **Message**: Contact form submissions
-- **BlogPost**: Blog articles with markdown support
+</div>
 
-## 🔧 Development
+---
 
-### Run Backend Tests
-```bash
-cd backend
-python manage.py test
-```
+<div align="center">
 
-### Build Frontend
-```bash
-cd frontend
-npm run build
-```
+### ✨ Made with ❤️ by MD HABIBULLAH MAHMUD
 
-## 📄 License
+⭐ If you find my projects useful, please consider giving them a star!
 
-MIT License
-
-## 👤 Author
-
-**MD HABIBULLAH MAHMUD**  
-Tech Professional | Web Developer | Computer Science Student  
-
-- **Email**: mdhabibullahmahmudncs13@gmail.com
-- **Portfolio**: [mdhabibullahmahmud.me](https://www.mdhabibullahmahmud.me/)
-- **LinkedIn**: [MD Habibullah Mahmud](https://www.linkedin.com/in/md-habibullah-mahmud-3820382a9/)
-- **GitHub**: [mdhabibullahmahmudncs13](https://github.com/mdhabibullahmahmudncs13)
+**Last Updated:** March 2026
